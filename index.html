@@ -1,418 +1,553 @@
 <!DOCTYPE html>
 <html lang="ua">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mavic</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!--Header
     ===============-->
 
     <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <a class="logo" href="#">
-                    <picture class="logo__img">
-                        <source srcset="images/logo-mobile.png" media="(max-width: 600px)">
-                        <img src="images/logo.png" alt="">
-                    </picture>
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#">
+            <picture class="logo__img">
+              <source
+                srcset="images/logo-mobile.png"
+                media="(max-width: 600px)"
+              />
+              <img src="images/logo.png" alt="" />
+            </picture>
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#">ПРО ДРОН</a>
+              </li>
 
-                        <li class="menu__list-item">
-                            <a href="#">ПРО ДРОН</a> 
-                        </li>
+              <li class="menu__list-item">
+                <a href="#">ПЕРЕВАГИ</a>
+              </li>
 
-                        <li class="menu__list-item">
-                             <a href="#">ПЕРЕВАГИ</a>
-                        </li>
+              <li class="menu__list-item">
+                <a href="#">ХАРАКТЕРИСТИКИ</a>
+              </li>
 
-                        <li class="menu__list-item">
-                             <a href="#">ХАРАКТЕРИСТИКИ</a>
-                        </li>
+              <li class="menu__list-item">
+                <a href="#">ПИТАННЯ</a>
+              </li>
 
-                        <li class="menu__list-item">
-                             <a href="#">ПИТАННЯ</a>
-                        </li>
+              <li class="menu__list-item">
+                <a href="#">КОНТАКТИ</a>
+              </li>
+            </ul>
+          </nav>
 
-                        <li class="menu__list-item">
-                             <a href="#">КОНТАКТИ</a>
-                        </li>
-
-                    </ul>
-                </nav>
-
-                <div class="header__info">
-                    <button>купити</button>
-                    <a href="tel:80505676767">8 (050) 567 67 67</a>
-                </div>
-            </div> <!--./header__inner-->
-        </div> <!--./container-->
+          <div class="header__info">
+            <button class="header__btn">купити</button>
+            <a href="tel:80505676767">8 (050) 567 67 67</a>
+          </div>
+        </div>
+        <!--./header__inner-->
+      </div>
+      <!--./container-->
     </header>
 
     <!--Top
     ===============-->
 
     <section class="page-section top">
+      <div class="page-section__wrapper top__wrapper">
         <div class="container">
-            <div class="top__inner">
-                <h1 class="top__title"> <!--????????? Правильно ли стоит h1?-->
-                    Mavic 2 Pro
-                </h1>
-                <img src="images/mavic.png" alt="">
-                <p class="top__text">
-                    Квадрокоптер Dji Mavic 2 Pro
-                    з професійною камерою Hasselblad
-                </p>
-                <ul class="top__social-list">
-                    <li class="top__social-item">
-                        <a class="top__social-link" href="">
-                            <img src="images/facebook.svg" alt="">
-                        </a>
-                    </li>
-                    <li class="top__social-item">
-                        <a class="top__social-link" href="">
-                            <img src="images/youtube.svg" alt="">
-                        </a>
-                    </li>
-                    <li class="top__social-item">
-                        <a class="top__social-link" href="">
-                            <img src="images/insta.svg" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+          <div class="top__inner">
+            <h1 class="top__title">
+              <!--????????? Правильно ли стоит h1?-->
+              Mavic 2 Pro
+            </h1>
+            <img src="images/mavic.png" alt="" />
+            <p class="top__text">
+              Квадрокоптер Dji Mavic 2 Pro з професійною камерою Hasselblad
+            </p>
+            <ul class="top__social-list">
+              <li class="top__social-item">
+                <a class="top__social-link" href="">
+                  <img src="images/facebook.svg" alt="" />
+                </a>
+              </li>
+              <li class="top__social-item">
+                <a class="top__social-link" href="">
+                  <img src="images/youtube.svg" alt="" />
+                </a>
+              </li>
+              <li class="top__social-item">
+                <a class="top__social-link" href="">
+                  <img src="images/insta.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+        </div><!-- </div> ./container -->
+      
         <div class="scroll__btn">
-            <a href="#products">
-                <img src="images/arrow-down.svg" alt="">
-            </a>
+          <a href="#products">
+            <img src="images/arrow-down.svg" alt="" />
+          </a>
         </div>
+      </div> <!--./top__wrapper-->
     </section>
 
     <!--Products
     ===============-->
 
     <section id="products" class="page-section products">
+      <div class="page-section__wrapper"> 
         <div class="container">
-            <h3 class="title products__title">Що таке Mavic 2 Pro?</h3>
-            <div class="products__inner">
-                <div class="products__text">
-                    <p>
-                        Дрон Mavic 2 Pro - это инженерное чудо, идеальное для аэросъемки. Дрон обладает всеми лучшими технологиями DJI, он преобразит мир аэросъемки.
-                    </p>
-                    <p>
-                        Mavic 2 Pro оснащен совершенно новой камерой Hasselblad L1D-20c. Камера L1D-20c работает по уникальной технологии Hasselblad Natural Colour Solution (HNCS)5, позволяющей пользователям делать великолепные снимки с воздуха с разрешением в 20 мегапикселей и потрясающими цветами.
-                    </p>
+          <h3 class="title products__title">Що таке Mavic 2 Pro?</h3>
+          <div class="products__inner">
+            <div class="products__text">
+              <p>
+                Дрон Mavic 2 Pro - это инженерное чудо, идеальное для аэросъемки.
+                Дрон обладает всеми лучшими технологиями DJI, он преобразит мир
+                аэросъемки.
+              </p>
+              <p>
+                Mavic 2 Pro оснащен совершенно новой камерой Hasselblad L1D-20c.
+                Камера L1D-20c работает по уникальной технологии Hasselblad
+                Natural Colour Solution (HNCS)5, позволяющей пользователям делать
+                великолепные снимки с воздуха с разрешением в 20 мегапикселей и
+                потрясающими цветами.
+              </p>
+            </div>
+            <div class="products__slider-box">
+              <p class="products__slider-box-text">
+                Найкраща безпілотна технологія аерозйомки
+              </p>
+              <div class="products__slider">
+                <div class="products__slider-item">
+                  <img
+                    src="images/slider-1.jpg"
+                    alt=""
+                    class="products__slider-img"
+                  />
                 </div>
-                <div class="products__slider-box">
-                    <p class="products__slider-box-text">
-                        Найкраща безпілотна технологія аерозйомки
-                    </p>
-                    <div class="products__slider">
-                        <div class="products__slider-item">
-                            <img src="images/slider-1.jpg" alt="" class="products__slider-img"></div>
-                        <div class="products__slider-item">
-                            <img src="images/slider-1.jpg" alt="" class="products__slider-img"></div>
-                        <div class="products__slider-item">
-                            <img src="images/slider-1.jpg" alt="" class="products__slider-img"></div>
-                        <div class="products__slider-item">
-                            <img src="images/slider-1.jpg" alt="" class="products__slider-img"></div>
-                        <div class="products__slider-item">
-                            <img src="images/slider-1.jpg" alt="" class="products__slider-img"></div>
-                        <div class="products__slider-item">
-                            <img src="images/slider-1.jpg" alt="" class="products__slider-img"></div>
-                    </div>
+                <div class="products__slider-item">
+                  <img
+                    src="images/slider-1.jpg"
+                    alt=""
+                    class="products__slider-img"
+                  />
                 </div>
-            </div><!--./products__inner-->
-        </div><!--./container-->
+                <div class="products__slider-item">
+                  <img
+                    src="images/slider-1.jpg"
+                    alt=""
+                    class="products__slider-img"
+                  />
+                </div>
+                <div class="products__slider-item">
+                  <img
+                    src="images/slider-1.jpg"
+                    alt=""
+                    class="products__slider-img"
+                  />
+                </div>
+                <div class="products__slider-item">
+                  <img
+                    src="images/slider-1.jpg"
+                    alt=""
+                    class="products__slider-img"
+                  />
+                </div>
+                <div class="products__slider-item">
+                  <img
+                    src="images/slider-1.jpg"
+                    alt=""
+                    class="products__slider-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--./products__inner-->
+        </div>
+        <!--./container-->
 
         <div class="scroll__btn">
-            <a href="#benefits">
-                <img src="images/arrow-down.svg" alt="">
-            </a>
+          <a href="#benefits">
+            <img src="images/arrow-down.svg" alt="" />
+          </a>
         </div>
+      </div>
     </section>
 
     <!--Benefits
     ===============-->
 
     <section id="benefits" class="page-section benefits">
+      <div class="page-section__wrapper">
         <div class="container">
-            <h3 class="title">Переваги</h3>
-            <div class="benefits__items"> 
+          <h3 class="title">Переваги</h3>
+          <div class="benefits__items">
+            <!--Item 1
+                  ===============-->
 
-                    <!--Item 1
-                ===============-->
-
-                <div class="benefits__item">
-                    <div class="benefits__num">1</div>
-                    <div class="benefits__img">
-                        <img src="images/benefits-1.jpg" alt="">
-                    </div>
-                    <div class="benefits__info">
-                        <h4 class="benefits__info-title">Інтелектуальні режими</h4>
-                        <p class="benefits__info-text">Mavic 2 успадкував 6 стандартних режимів інтелектуальної зйомки QuickShot:Roket/Dronie/Circle/Helix/Boomerang/Asteroid.</p>
-                    </div>
-                </div>
-
-                <!--Item 2
-                ===============-->
-
-                <div class="benefits__item">
-                    <div class="benefits__num">2</div>
-                    <div class="benefits__img">
-                        <img src="images/benefits-2.jpg" alt="">
-                    </div>
-                    <div class="benefits__info">
-                        <h4 class="benefits__info-title">Active Track 2.0</h4>
-                        <p class="benefits__info-text">Удосконалений режим другого покоління розпізнає та відстежує об'єкти ще точніше, швидше та розумніше.</p>
-                    </div>
-                </div>
-
-                <!--Item 3
-                ===============-->
-
-                <div class="benefits__item">
-                    <div class="benefits__num">3</div>
-                    <div class="benefits__img">
-                        <img src="images/benefits-3.jpg" alt="">
-                    </div>
-                    <div class="benefits__info">
-                        <h4 class="benefits__info-title">Панорамна зйомка</h4>
-                        <p class="benefits__info-text">Mavic 2 підтримує 4 режими панорамної зйомки: сферична, 180 градусів, горизонтальна, вертикальна.</p>
-                    </div>
-                </div>
-
-                <!--Item 4 
-                ===============-->
-
-                <div class="benefits__item">
-                    <div class="benefits__num">4</div>
-                    <div class="benefits__img">
-                        <img src="images/benefits-4.jpg" alt="">
-                    </div>
-                    <div class="benefits__info">
-                        <h4 class="benefits__info-title">Крута камера!</h4>
-                        <p class="benefits__info-text">Технологія Hyperlapse у чотирьох режимах виконання. Покращений фото режим HDR Функція HyperLight для зйомки в умовах слабкого освітлення 4К зйомка.</p>
-                    </div>
-                </div>
-
+            <div class="benefits__item">
+              <div class="benefits__num">1</div>
+              <div class="benefits__img">
+                <img src="images/benefits-1.jpg" alt="" />
+              </div>
+              <div class="benefits__info">
+                <h4 class="benefits__info-title">Інтелектуальні режими</h4>
+                <p class="benefits__info-text">
+                  Mavic 2 успадкував 6 стандартних режимів інтелектуальної зйомки
+                  QuickShot:Roket/Dronie/Circle/Helix/Boomerang/Asteroid.
+                </p>
+              </div>
             </div>
-        </div><!--container-->
-        <div class="scroll__btn">
-            <a href="#specefication">
-                <img src="images/arrow-down.svg" alt="">
-            </a>
+
+            <!--Item 2
+                  ===============-->
+
+            <div class="benefits__item">
+              <div class="benefits__num">2</div>
+              <div class="benefits__img">
+                <img src="images/benefits-2.jpg" alt="" />
+              </div>
+              <div class="benefits__info">
+                <h4 class="benefits__info-title">Active Track 2.0</h4>
+                <p class="benefits__info-text">
+                  Удосконалений режим другого покоління розпізнає та відстежує
+                  об'єкти ще точніше, швидше та розумніше.
+                </p>
+              </div>
+            </div>
+
+            <!--Item 3
+                  ===============-->
+
+            <div class="benefits__item">
+              <div class="benefits__num">3</div>
+              <div class="benefits__img">
+                <img src="images/benefits-3.jpg" alt="" />
+              </div>
+              <div class="benefits__info">
+                <h4 class="benefits__info-title">Панорамна зйомка</h4>
+                <p class="benefits__info-text">
+                  Mavic 2 підтримує 4 режими панорамної зйомки: сферична, 180
+                  градусів, горизонтальна, вертикальна.
+                </p>
+              </div>
+            </div>
+
+            <!--Item 4 
+                  ===============-->
+
+            <div class="benefits__item">
+              <div class="benefits__num">4</div>
+              <div class="benefits__img">
+                <img src="images/benefits-4.jpg" alt="" />
+              </div>
+              <div class="benefits__info">
+                <h4 class="benefits__info-title">Крута камера!</h4>
+                <p class="benefits__info-text">
+                  Технологія Hyperlapse у чотирьох режимах виконання. Покращений
+                  фото режим HDR Функція HyperLight для зйомки в умовах слабкого
+                  освітлення 4К зйомка.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+        <!--container-->
+        <div class="scroll__btn">
+          <a href="#specefication">
+            <img src="images/arrow-down.svg" alt="" />
+          </a>
+        </div>
+      </div>
     </section>
 
     <!--Specefication
     ===============-->
 
     <section id="specefication" class="page-section specefication">
+      <div class="page-section__wrapper">
         <div class="container">
-            <h3 class="title">Характеристики</h3>
-            <div class="specefication__inner">
+          <h3 class="title">Характеристики</h3>
+          <div class="specefication__inner">
+            <!--Item 1 
+                  ===============-->
 
-                <!--Item 1 
-                ===============-->
+            <div class="specefication__item">
+              <div class="specefication__box">
+                <h4 class="specefication__box-title">Dlog-M 10 біт</h4>
+                <p class="specefication__box-text">
+                  Mavic 2 Pro поддерживает цветовой профиль Dlog-M 10 бит с более
+                  широким динамическим диапазоном, дающим больше возможностей для
+                  цветокоррекции.
+                </p>
+              </div>
+            </div>
 
-                <div class="specefication__item">
-                    <div class="specefication__box">
-                        <h4 class="specefication__box-title">Dlog-M 10 біт</h4>
-                        <p class="specefication__box-text">Mavic 2 Pro поддерживает цветовой профиль Dlog-M 10 бит с более широким динамическим диапазоном, дающим больше возможностей для цветокоррекции.</p>
-                    </div>
-                </div>
+            <!--Item 2
+                  ===============-->
 
-                <!--Item 2
-                ===============-->
+            <div class="specefication__item">
+              <div class="specefication__box">
+                <h4 class="specefication__box-title">Камера Hasselblad</h4>
+                <p class="specefication__box-text">
+                  Камера Hasselblad L1D-20С известны эргономичным дизайном и
+                  превосходным качеством изображений.
+                </p>
+              </div>
+            </div>
 
-                <div class="specefication__item">
-                    <div class="specefication__box">
-                        <h4 class="specefication__box-title">Камера Hasselblad</h4>
-                        <p class="specefication__box-text">Камера Hasselblad L1D-20С известны эргономичным дизайном и превосходным качеством изображений. </p>
-                    </div>
-                </div>
+            <!--Item 3 
+                  ===============-->
 
-                <!--Item 3 
-                ===============-->
+            <div class="specefication__item">
+              <div class="specefication__box">
+                <h4 class="specefication__box-title">Матриця CMOS 1</h4>
+                <p class="specefication__box-text">
+                  Зона активної роботи нової 1-дюймової матриці CMOS у чотири рази
+                  перевищує показники Mavic Pro
+                </p>
+              </div>
+            </div>
 
-                <div class="specefication__item">
-                    <div class="specefication__box">
-                        <h4 class="specefication__box-title">Матриця CMOS 1</h4>
-                        <p class="specefication__box-text">Зона активної роботи нової 1-дюймової матриці CMOS у чотири рази перевищує показники Mavic Pro</p>
-                    </div>
-                </div>
+            <!--Item 4 
+                  ===============-->
 
-                <!--Item 4 
-                ===============-->
+            <div class="specefication__item">
+              <div class="specefication__box">
+                <h4 class="specefication__box-title">Видео HDR</h4>
+                <p class="specefication__box-text">
+                  Завдяки підтримці відео 4K HDR 10 біт Mavic 2 Pro можна
+                  під'єднати до сумісного з HLG 4K ТБ i переглядати запис у
+                  повному кольоровому спектрі
+                </p>
+              </div>
+            </div>
 
-                <div class="specefication__item">
-                    <div class="specefication__box">
-                        <h4 class="specefication__box-title">Видео HDR</h4>
-                        <p class="specefication__box-text">Завдяки підтримці відео 4K HDR 10 біт Mavic 2 Pro можна під'єднати до сумісного з HLG 4K ТБ i переглядати запис у повному кольоровому спектрі</p>
-                    </div>
-                </div>
-
-                <div class="specefication__item">
-                    <img src="images/mavic.png" alt="">
-                </div>
-                <div class="specefication__item"></div>
-            </div><!--./specefication__inner-->
-        </div><!--./container-->
-        <div class="scroll__btn">
-            <a href="#questions">
-                <img src="images/arrow-down.svg" alt="">
-            </a>
+            <div class="specefication__item">
+              <img src="images/mavic.png" alt="" />
+            </div>
+            <div class="specefication__item"></div>
+          </div>
+          <!--./specefication__inner-->
         </div>
+        <!--./container-->
+        <div class="scroll__btn">
+          <a href="#questions">
+            <img src="images/arrow-down.svg" alt="" />
+          </a>
+        </div>
+      </div>  
     </section>
 
     <!--Questions
     ===============-->
 
     <section id="questions" class="page-section questions">
+      <div class="page-section__wrapper">
         <div class="container">
-            <h3 class="title">Залишились питання?</h3>
+          <h3 class="title">Залишились питання?</h3>
 
-            <!--Question #1-->
+          <!--Question #1-->
 
-            <div class="questions__items">
-                <div class="questions__item">
-                    <h4 class="questions__item-title">Які відмінності між Mavic 2 Pro та Mavic 2 Zoom?</h4>
-                    <p class="questions__item-text">У Mavic 2 покращено практично всі аспекти: камера, передача відеосигналу, польотний час, швидкість, рівень шуму, виявлення перешкод у кількох напрямках, інтелектуальні функції та унікальна функція Hyperlapse (гіперлапс).</p>
-                </div>
+          <div class="questions__items">
+            <div class="questions__item">
+              <h4 class="questions__item-title">
+                Які відмінності між Mavic 2 Pro та Mavic 2 Zoom?
+              </h4>
+              <p class="questions__item-text">
+                У Mavic 2 покращено практично всі аспекти: камера, передача
+                відеосигналу, польотний час, швидкість, рівень шуму, виявлення
+                перешкод у кількох напрямках, інтелектуальні функції та унікальна
+                функція Hyperlapse (гіперлапс).
+              </p>
             </div>
+          </div>
 
-            <!--Question #2-->
+          <!--Question #2-->
 
-            <div class="questions__items">
-                <div class="questions__item">
-                    <h4 class="questions__item-title">Чим Mavic 2 краще Mavic Pro?</h4>
-                    <p class="questions__item-text">У Mavic 2 покращено практично всі аспекти: камера, передача відеосигналу, польотний час, швидкість, рівень шуму, виявлення перешкод у кількох напрямках, інтелектуальні функції та унікальна функція Hyperlapse (гіперлапс).</p>
-                </div>
+          <div class="questions__items">
+            <div class="questions__item">
+              <h4 class="questions__item-title">Чим Mavic 2 краще Mavic Pro?</h4>
+              <p class="questions__item-text">
+                У Mavic 2 покращено практично всі аспекти: камера, передача
+                відеосигналу, польотний час, швидкість, рівень шуму, виявлення
+                перешкод у кількох напрямках, інтелектуальні функції та унікальна
+                функція Hyperlapse (гіперлапс).
+              </p>
             </div>
+          </div>
 
-            <!--Question #3-->
+          <!--Question #3-->
 
-            <div class="questions__items">
-                <div class="questions__item">
-                    <h4 class="questions__item-title">Чи можна підключити Mavic 2 до очок DJI Goggles?</h4>
-                    <p class="questions__item-text">У Mavic 2 покращено практично всі аспекти: камера, передача відеосигналу, польотний час, швидкість, рівень шуму, виявлення перешкод у кількох напрямках, інтелектуальні функції та унікальна функція Hyperlapse (гіперлапс).</p>
-                </div>
+          <div class="questions__items">
+            <div class="questions__item">
+              <h4 class="questions__item-title">
+                Чи можна підключити Mavic 2 до очок DJI Goggles?
+              </h4>
+              <p class="questions__item-text">
+                У Mavic 2 покращено практично всі аспекти: камера, передача
+                відеосигналу, польотний час, швидкість, рівень шуму, виявлення
+                перешкод у кількох напрямках, інтелектуальні функції та унікальна
+                функція Hyperlapse (гіперлапс).
+              </p>
             </div>
+          </div>
 
-            <!--Question #4-->
+          <!--Question #4-->
 
-            <div class="questions__items">
-                <div class="questions__item">
-                    <h4 class="questions__item-title">Чи є Mavic 2 водонепроникним?</h4>
-                    <p class="questions__item-text">У Mavic 2 покращено практично всі аспекти: камера, передача відеосигналу, польотний час, швидкість, рівень шуму, виявлення перешкод у кількох напрямках, інтелектуальні функції та унікальна функція Hyperlapse (гіперлапс).</p>
-                </div>
+          <div class="questions__items">
+            <div class="questions__item">
+              <h4 class="questions__item-title">Чи є Mavic 2 водонепроникним?</h4>
+              <p class="questions__item-text">
+                У Mavic 2 покращено практично всі аспекти: камера, передача
+                відеосигналу, польотний час, швидкість, рівень шуму, виявлення
+                перешкод у кількох напрямках, інтелектуальні функції та унікальна
+                функція Hyperlapse (гіперлапс).
+              </p>
             </div>
-
-        </div><!--./container-->
-        <div class="scroll__btn">
-            <a href="#contacts">
-                <img src="images/arrow-down.svg" alt="">
-            </a>
+          </div>
         </div>
+        <!--./container-->
+        <div class="scroll__btn">
+          <a href="#contacts">
+            <img src="images/arrow-down.svg" alt="" />
+          </a>
+        </div>
+      </div>  
     </section>
 
     <!--Contacts
     ===============-->
 
     <section id="contacts" class="page-section contacts">
+      <div class="page-section__wrapper">
         <div class="container">
-            <h3 class="title">Контакти</h3>  
-            <div class="contacts__inner">
-                <div class="contacts__info">
+          <h3 class="title">Контакти</h3>
+          <div class="contacts__inner">
+            <div class="contacts__info">
+              <!--Kharkiv-->
 
-                    <!--Kharkiv-->
+              <div class="contacts__info-box">
+                <p class="contacts__info-title">Харків</p>
+                <a href="tel:+380671222290" class="contacts__info-phone"
+                  >(+380)-671-222-290</a
+                >
+                <a
+                  href="mailto:dgi.mavic2pro.kharkiv@gmail.com"
+                  class="contacts__info-email"
+                  >dgi.mavic2pro.kharkiv@gmail.com</a
+                >
+              </div>
 
-                    <div class="contacts__info-box">
-                        <p class="contacts__info-title">Харків</p>
-                        <a href="tel:+380671222290" class="contacts__info-phone">(+380)-671-222-290</a>
-                        <a href="mailto:dgi.mavic2pro.kharkiv@gmail.com" class="contacts__info-email">dgi.mavic2pro.kharkiv@gmail.com</a>
-                    </div>
+              <!--Kyiv-->
 
-                    <!--Kyiv-->
+              <div class="contacts__info-box">
+                <p class="contacts__info-title">Киїив</p>
+                <a href="tel:+380671222777" class="contacts__info-phone"
+                  >(+380)-671-222-777</a
+                >
+                <a
+                  href="mailto:dgi.mavic2pro.kiev@gmail.com"
+                  class="contacts__info-email"
+                  >dgi.mavic2pro.kiev@gmail.com</a
+                >
+              </div>
 
-                    <div class="contacts__info-box">
-                        <p class="contacts__info-title">Киїив</p>
-                        <a href="tel:+380671222777" class="contacts__info-phone">(+380)-671-222-777</a>
-                        <a href="mailto:dgi.mavic2pro.kiev@gmail.com" class="contacts__info-email">dgi.mavic2pro.kiev@gmail.com</a>
-                    </div>
+              <!--Odesa-->
 
-                    <!--Odesa-->
+              <div class="contacts__info-box">
+                <p class="contacts__info-title">Одеса</p>
+                <a href="tel:+380671222333" class="contacts__info-phone"
+                  >(+380)-671-222-333</a
+                >
+                <a
+                  href="mailto:dgi.mavic2pro.odesa@gmail.com"
+                  class="contacts__info-email"
+                  >dgi.mavic2pro.odesa@gmail.com</a
+                >
+              </div>
+            </div>
 
-                    <div class="contacts__info-box">
-                        <p class="contacts__info-title">Одеса</p>
-                        <a href="tel:+380671222333" class="contacts__info-phone">(+380)-671-222-333</a>
-                        <a href="mailto:dgi.mavic2pro.odesa@gmail.com" class="contacts__info-email">dgi.mavic2pro.odesa@gmail.com</a>
-                    </div>
+            <!--Forms-->
+
+            <div class="contacts__form">
+              <form>
+                <h4 class="contacts__form-title">Залишились питання?</h4>
+                <p class="contacts__form-text">
+                  Ми обов'язково зв'яжемося з вами протягом двох робочих днів
+                </p>
+                <div class="contacts__form-line">
+                  <input
+                    class="contacts__form-input"
+                    placeholder="Ваше ім'я"
+                    type="text"
+                  />
+                  <input
+                    class="contacts__form-input"
+                    placeholder="Bаш e-mail"
+                    type="email"
+                  />
                 </div>
+                <textarea
+                  class="contacts__form-textarea"
+                  placeholder="Що вас цікавить"
+                ></textarea>
+                <button class="contact__form-btn" type="submit">Надіслати</button>
+              </form>
+            </div>
 
-                <!--Forms-->
-
-                <div class="contacts__form">
-                    <form>
-                        <h4 class="contacts__form-title">
-                            Залишились питання?
-                        </h4>
-                        <p class="contacts__form-text">
-                            Ми обов'язково зв'яжемося з вами протягом двох робочих днів
-                        </p>
-                        <div class="contacts__form-line">
-                            <input class="contacts__form-input" placeholder="Ваше ім'я" type="text">
-                            <input class="contacts__form-input" placeholder="Bаш e-mail" type="email">
-                        </div>
-                        <textarea class="contacts__form-textarea" placeholder="Що вас цікавить"></textarea>
-                        <button class="contact__form-btn" type="submit">Надіслати</button>
-                    </form>
-                </div>
-
-                <!--Social icons-->
-                <div class="contacts__social">
-                    <ul class="social__list">
-                        <li class="contacts__social-item">
-                            <a class="contacts__social-link" href="">
-                                <img src="images/facebook.svg" alt="">
-                            </a>
-                        </li>
-                        <li class="contacts__social-item">
-                            <a class="contacts__social-link" href="">
-                                <img src="images/youtube.svg" alt="">
-                            </a>
-                        </li>
-                        <li class="contacts__social-item">
-                            <a class="contacts__social-link" href="">
-                                <img src="images/insta.svg" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div><!--./contacts__inner-->          
-        </div> <!--./container-->
-        <div class="scroll__btn">
-            <a href="#">
-                <img src="images/arrow-down.svg" alt="">
-            </a>
+            <!--Social icons-->
+            <div class="contacts__social">
+              <ul class="social__list">
+                <li class="contacts__social-item">
+                  <a class="contacts__social-link" href="">
+                    <img src="images/facebook.svg" alt="" />
+                  </a>
+                </li>
+                <li class="contacts__social-item">
+                  <a class="contacts__social-link" href="">
+                    <img src="images/youtube.svg" alt="" />
+                  </a>
+                </li>
+                <li class="contacts__social-item">
+                  <a class="contacts__social-link" href="">
+                    <img src="images/insta.svg" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--./contacts__inner-->
         </div>
+        <!--./container-->
+        <div class="scroll__btn">
+          <a href="#">
+            <img src="images/arrow-down.svg" alt="" />
+          </a>
+        </div>
+      </div>  
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <p class="footer__copy">
-                © DJI, 2020
-            </p>
-        </div>
+      <div class="container">
+        <p class="footer__copy">© DJI, 2020</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
