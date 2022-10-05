@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mavic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/fullpage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -19,6 +20,7 @@
     <!--Header
     ===============-->
 
+  <main id="fullpage">
     <header class="header">
       <div class="container">
         <div class="header__inner">
@@ -73,7 +75,7 @@
         <div class="container">
           <div class="top__inner">
             <h1 class="top__title">
-              <!--????????? Правильно ли стоит h1?-->
+              
               Mavic 2 Pro
             </h1>
             <img src="images/mavic.png" alt="" />
@@ -125,7 +127,7 @@
                 Mavic 2 Pro оснащений новою камерою Hasselblad L1D-20c.
                 Камера L1D-20c працює за унікальною технологією Hasselblad
                 Natural Colour Solution (HNCS)5, що дозволяє користувачам робити
-                чудові знімки з повітря з роздільною здатністю 20 мегапікселів і
+                чудові знімки з повітря з роздільною здатністю 20 мегапікселів i
                 приголомшливими квітами.
               </p>
             </div>
@@ -292,12 +294,12 @@
                   ===============-->
 
             <div class="specefication__item">
-              <div class="specefication__box">
+              <div class="specefication__box specefication__box-1">
                 <h4 class="specefication__box-title">Dlog-M 10 біт</h4>
                 <p class="specefication__box-text">
-                  Mavic 2 Pro поддерживает цветовой профиль Dlog-M 10 бит с более
-                  широким динамическим диапазоном, дающим больше возможностей для
-                  цветокоррекции.
+                  Mavic 2 Pro підтримує колірний профіль Dlog-M 10 біт з більш
+                  виявляти діапазон спектру, що дає більше можливостей для
+                  корекції кольору.
                 </p>
               </div>
             </div>
@@ -306,11 +308,11 @@
                   ===============-->
 
             <div class="specefication__item">
-              <div class="specefication__box">
+              <div class="specefication__box specefication__box-2">
                 <h4 class="specefication__box-title">Камера Hasselblad</h4>
                 <p class="specefication__box-text">
-                  Камера Hasselblad L1D-20С известны эргономичным дизайном и
-                  превосходным качеством изображений.
+                  Камера Hasselblad L1D-20С відомі ергономічним дизайном та
+                  чудовою якістю зображень.
                 </p>
               </div>
             </div>
@@ -319,7 +321,7 @@
                   ===============-->
 
             <div class="specefication__item">
-              <div class="specefication__box">
+              <div class="specefication__box specefication__box-3">
                 <h4 class="specefication__box-title">Матриця CMOS 1</h4>
                 <p class="specefication__box-text">
                   Зона активної роботи нової 1-дюймової матриці CMOS у чотири рази
@@ -332,8 +334,8 @@
                   ===============-->
 
             <div class="specefication__item">
-              <div class="specefication__box">
-                <h4 class="specefication__box-title">Видео HDR</h4>
+              <div class="specefication__box specefication__box-4">
+                <h4 class="specefication__box-title">Відео HDR</h4>
                 <p class="specefication__box-text">
                   Завдяки підтримці відео 4K HDR 10 біт Mavic 2 Pro можна
                   під'єднати до сумісного з HLG 4K ТБ i переглядати запис у
@@ -342,10 +344,7 @@
               </div>
             </div>
 
-            <div class="specefication__item">
-              <img src="images/mavic.png" alt="" />
-            </div>
-            <div class="specefication__item"></div>
+            
           </div>
           <!--./specefication__inner-->
         </div>
@@ -511,30 +510,28 @@
                   class="contacts__form-textarea"
                   placeholder="Що вас цікавить"
                 ></textarea>
-                <button class="contact__form-btn" type="submit">Надіслати</button>
+                <button class="contacts__form-btn" type="submit">Надіслати</button>
               </form>
             </div>
 
-            <!--Social icons-->
-            <div class="contacts__social">
-              <ul class="social__list">
-                <li class="contacts__social-item">
-                  <a class="contacts__social-link" href="">
-                    <img src="images/facebook.svg" alt="" />
-                  </a>
-                </li>
-                <li class="contacts__social-item">
-                  <a class="contacts__social-link" href="">
-                    <img src="images/youtube.svg" alt="" />
-                  </a>
-                </li>
-                <li class="contacts__social-item">
-                  <a class="contacts__social-link" href="">
-                    <img src="images/insta.svg" alt="" />
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <!--Social icons-->           
+            <ul class="contacts__social-list">
+              <li class="contacts__social-item">
+                <a class="contacts__social-link" href="">
+                  <img src="images/facebook.svg" alt="" />
+                </a>
+              </li>
+              <li class="contacts__social-item">
+                <a class="contacts__social-link" href="">
+                  <img src="images/youtube.svg" alt="" />
+                </a>
+              </li>
+              <li class="contacts__social-item">
+                <a class="contacts__social-link" href="">
+                  <img src="images/insta.svg" alt="" />
+                </a>
+              </li>
+            </ul>
           </div>
           <!--./contacts__inner-->
         </div>
@@ -544,18 +541,21 @@
             <img src="images/arrow-down.svg" alt="" />
           </a>
         </div>
-      </div>  
-    </section>
-
-    <footer class="footer">
-      <div class="container">
-        <p class="footer__copy">© DJI, 2020</p>
+          <footer class="footer">
+            <div class="container">
+              <p class="footer__copy">© DJI, 2020</p>  
+            </div>
+          </footer>
       </div>
-    </footer>
+      </div> 
+    </section>
+  </main>
+    
 
   
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/fullpage.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
   </body>
