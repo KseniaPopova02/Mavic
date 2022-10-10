@@ -13,9 +13,24 @@ $(".questions__item-title").on("click", function () {
   $(this).parent().addClass("questions__item-active");
 });
 
-$("#fullpage").fullpage({
-  //options here
+import fullpage from "fullpage.js/dist/fullpage.extensions";
+
+new fullpage("#fullpage", {
+  licenseKey: "gplv3-license",
   autoScrolling: true,
   scrollHorizontally: true,
   sectionSelector: ".page-section",
+  scrollOverflow: true,
+  // menu: "#header__nav",
+  // anchors:['top', 'products', 'benefits', 'specification', 'questions', 'contacts']
+});
+
+$(".menu__btn").on("click", function () {
+  $(".menu__btn").toggleClass("menu__btn--active");
+  $(".menu__list").toggleClass("menu__list--active");
+});
+
+$(".menu__list-item").on("click", function () {
+  $(".menu__btn").removeClass("menu__btn--active");
+  $(".menu__list").removeClass("menu__list--active");
 });

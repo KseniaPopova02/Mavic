@@ -2,6 +2,7 @@
 @import "libs";
 @import "fonts";
 @import "global";
+@import "../node_modules/fullpage.js/dist/fullpage.css";
 
 .header {
   position: fixed;
@@ -47,6 +48,12 @@
     & + .menu__list-item {
       padding-left: 20px;
     }
+  }
+  &__list-phone {
+    display: none;
+  }
+  &__btn {
+    display: none;
   }
 }
 
@@ -463,6 +470,10 @@
     line-height: 15px;
     color: rgba(#fff, 0.64);
   }
+}
+
+.fp-watermark {
+  display: none;
 }
 
 @import "media";

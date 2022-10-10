@@ -20,46 +20,55 @@
     <!--Header
     ===============-->
 
-  <main id="fullpage">
     <header class="header">
       <div class="container">
-        <div class="header__inner">
-          <a class="logo" href="#">
-            <picture class="logo__img">
-              <source
-                srcset="images/logo-mobile.png"
-                media="(max-width: 600px)"
-              />
-              <img src="images/logo.png" alt="" />
-            </picture>
-          </a>
+        <div id="header__nav" class="header__inner">
+          <div data-menuanchor="top">
+            <a class="logo" href="#top">
+              <picture class="logo__img">
+                <source
+                  srcset="images/logo-mobile.png"
+                  media="(max-width: 600px)"
+                />
+                <img src="images/logo.png" alt="" />
+              </picture>
+            </a>
+          </div>
+          
           <nav class="menu">
+            <button class="menu__btn">
+              <span class="menu__btn-line"></span>
+            </button>
             <ul class="menu__list">
-              <li class="menu__list-item">
-                <a href="#">ПРО ДРОН</a>
+              <li class="menu__list-item" data-menuanchor="products">
+                <a class="menu__list-link" href="#products">ПРО ДРОН</a>
               </li>
 
-              <li class="menu__list-item">
-                <a href="#">ПЕРЕВАГИ</a>
+              <li class="menu__list-item" data-menuanchor="benefits">
+                <a class="menu__list-link" href="#benefits">ПЕРЕВАГИ</a>
               </li>
 
-              <li class="menu__list-item">
-                <a href="#">ХАРАКТЕРИСТИКИ</a>
+              <li class="menu__list-item" data-menuanchor="specefication">
+                <a class="menu__list-link" href="#specefication">ХАРАКТЕРИСТИКИ</a>
               </li>
 
-              <li class="menu__list-item">
-                <a href="#">ПИТАННЯ</a>
+              <li class="menu__list-item" data-menuanchor="questions">
+                <a class="menu__list-link" href="#questions">ПИТАННЯ</a>
               </li>
 
-              <li class="menu__list-item">
-                <a href="#">КОНТАКТИ</a>
+              <li class="menu__list-item" data-menuanchor="contacts">
+                <a class="menu__list-link" href="#contacts">КОНТАКТИ</a>
+              </li>
+              <li class="menu__list-phone">
+                <a class="header__phone-menu" href="tel:80505676767">8 (050) 567 67 67</a>
               </li>
             </ul>
+            
           </nav>
 
           <div class="header__info">
             <button class="header__btn">купити</button>
-            <a href="tel:80505676767">8 (050) 567 67 67</a>
+            <a class="header__phone" href="tel:80505676767">8 (050) 567 67 67</a>
           </div>
         </div>
         <!--./header__inner-->
@@ -69,8 +78,9 @@
 
     <!--Top
     ===============-->
+  <main id="fullpage">
 
-    <section class="page-section top">
+    <section data-anchor="top" class="page-section top">
       <div class="page-section__wrapper top__wrapper">
         <div class="container">
           <div class="top__inner">
@@ -112,7 +122,7 @@
     <!--Products
     ===============-->
 
-    <section id="products" class="page-section products">
+    <section data-anchor="products" class="page-section products">
       <div class="page-section__wrapper"> 
         <div class="container">
           <h3 class="title products__title">Що таке Mavic 2 Pro?</h3>
@@ -198,7 +208,7 @@
     <!--Benefits
     ===============-->
 
-    <section id="benefits" class="page-section benefits">
+    <section data-anchor="benefits" class="page-section benefits">
       <div class="page-section__wrapper">
         <div class="container">
           <h3 class="title">Переваги</h3>
@@ -285,7 +295,7 @@
     <!--Specefication
     ===============-->
 
-    <section id="specefication" class="page-section specefication">
+    <section data-anchor="specefication" class="page-section specefication">
       <div class="page-section__wrapper">
         <div class="container">
           <h3 class="title">Характеристики</h3>
@@ -360,7 +370,7 @@
     <!--Questions
     ===============-->
 
-    <section id="questions" class="page-section questions">
+    <section data-anchor="questions" class="page-section questions" >
       <div class="page-section__wrapper">
         <div class="container">
           <h3 class="title">Залишились питання?</h3>
@@ -437,7 +447,7 @@
     <!--Contacts
     ===============-->
 
-    <section id="contacts" class="page-section contacts">
+    <section data-anchor="contacts" class="page-section contacts" >
       <div class="page-section__wrapper">
         <div class="container">
           <h3 class="title">Контакти</h3>
@@ -536,11 +546,7 @@
           <!--./contacts__inner-->
         </div>
         <!--./container-->
-        <div class="scroll__btn">
-          <a href="#">
-            <img src="images/arrow-down.svg" alt="" />
-          </a>
-        </div>
+        
           <footer class="footer">
             <div class="container">
               <p class="footer__copy">© DJI, 2020</p>  
@@ -549,14 +555,10 @@
       </div>
       </div> 
     </section>
-  </main>
-    
 
-  
-    
+  </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/fullpage.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/build.js"></script>
   </body>
 </html>

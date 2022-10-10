@@ -1,0 +1,28 @@
+{
+  "name": "mavic",
+  "version": "1.0.0",
+  "description": "Another learning project, I'm practicing SASS on it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KseniaPopova02/Mavic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KseniaPopova02/Mavic/issues"
+  },
+  "homepage": "https://github.com/KseniaPopova02/Mavic#readme",
+  "dependencies": {
+    "fullpage.js": "^4.0.11",
+    "laravel-mix": "^6.0.49"
+  },
+  "devDependencies": {
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^12.1.0"
+  }
+}
