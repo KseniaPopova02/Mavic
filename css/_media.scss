@@ -337,4 +337,22 @@
   .questions__item-text {
     padding: 0 5px 20px 8px;
   }
+  .title {
+    font-size: 20px;
+
+    margin-bottom: 4px;
+    padding-top: 14px;
+  }
+  .contacts__info-box {
+    margin-bottom: 10px;
+  }
+  .contacts__info-title {
+    font-size: 17px;
+  }
+  .contacts__social-list {
+    flex-direction: row;
+    img {
+      margin-left: 10px;
+    }
+  }
 }
