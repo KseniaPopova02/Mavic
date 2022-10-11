@@ -331,35 +331,35 @@ body {
 
 @font-face {
   font-family: "SPFroDisplay-Light", sans-serif;
-  src: url(/fonts/SFProDisplay-Light.woff2?54469e3c52efb3dffc83b8373749f46f) format("wolf2"), url(/fonts/SFProDisplay-Light.woff?9166ce32434fe7e0535437fde7f55951) format("wolf");
+  src: url("../fonts/SFProDisplay-Light.woff2") format("wolf2"), url("../fonts/SFProDisplay-Light.woff") format("wolf");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "SPFroDisplay-Regular", sans-serif;
-  src: url(/fonts/SFProDisplay-Regular.woff2?d5ff9f6824d2c66073618ceab4a5dae7) format("wolf2"), url(/fonts/SFProDisplay-Regular.woff?7ee14c637e39445d709322f111f847d4) format("wolf");
+  src: url("../fonts/SFProDisplay-Regular.woff2") format("wolf2"), url("../fonts/SFProDisplay-Regular.woff") format("wolf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "SPFroDisplay-Medium", sans-serif;
-  src: url(/fonts/SFProDisplay-Medium.woff2?22a99d36f90cc52d2914adca813e56ed) format("wolf2"), url(/fonts/SFProDisplay-Medium.woff?7274e74c05adf47dbcd99b87fc1f2a60) format("wolf");
+  src: url("../fonts/SFProDisplay-Medium.woff2") format("wolf2"), url("../fonts/SFProDisplay-Medium.woff") format("wolf");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "SPFroDisplay-Semibold", sans-serif;
-  src: url(/fonts/SFProDisplay-Semibold.woff2?3926eb65ce4420a819305cdf5dd2bfd6) format("wolf2"), url(/fonts/SFProDisplay-Semibold.woff?340c3a1a6dddb0b99476123eacf29f56) format("wolf");
+  src: url("../fonts/SFProDisplay-Semibold.woff2") format("wolf2"), url("../fonts/SFProDisplay-Semibold.woff") format("wolf");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "SPFroDisplay-Bold", sans-serif;
-  src: url(/fonts/SFProDisplay-Bold.woff2?84c242fe1f30a86d5ab33ebce2be8b0b) format("wolf2"), url(/fonts/SFProDisplay-Bold.woff?5b08afd6b167d7ec48ce49c69262dea1) format("wolf");
+  src: url("../fonts/SFProDisplay-Bold.woff2") format("wolf2"), url("../fonts/SFProDisplay-Bold.woff") format("wolf");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -411,7 +411,7 @@ body {
 
 .page-section {
   min-height: 100vh;
-  background-image: url(/images/page-bg.jpg?2b2555361fcb7d5dbb003a3bf6c02ddd);
+  background-image: url("../images/page-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -499,7 +499,7 @@ body {
 }
 
 .top {
-  background-image: url(/images/top-bg.jpg?976dc5b4fd747407e7351fa52c26fc7a);
+  background-image: url("../images/top-bg.jpg");
 }
 .top::before {
   content: "";
@@ -635,19 +635,19 @@ body {
   content: "";
   height: 48px;
   width: 195px;
-  background-image: url(/images/line-1.svg?c793b2e6803437306e0805a0c80b0a4e);
+  background-image: url("../images/line-1.svg");
   right: -50px;
   top: 51px;
 }
 .benefits__item:nth-child(3)::before {
-  background-image: url(/images/line-3.svg?0ac24571908c9bf191a63dfed943845f);
+  background-image: url("../images/line-3.svg");
   width: 240px;
   height: 45px;
   right: -55px;
   top: 50px;
 }
 .benefits__item:nth-child(3)::after {
-  background-image: url(/images/line-2.svg?348aadfbbe3551cd6a76bd72b6afd22f);
+  background-image: url("../images/line-2.svg");
   width: 485px;
   height: 62px;
   top: -80px;
@@ -688,7 +688,7 @@ body {
 
 .specefication {
   min-height: 100vh;
-  background-image: url(/images/bg-section.jpg?0540343e97a5d132d0dbc6252def72d9);
+  background-image: url("../images/bg-section.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -734,7 +734,7 @@ body {
   padding: 20px 10px 24px 40px;
 }
 .questions__item-title::after {
-  content: url(/images/accordion-arrow.svg?ff9a46c90f1d56f1107ce5a70b23d897);
+  content: url("../images/accordion-arrow.svg");
   position: absolute;
   width: 72px;
   height: 72px;
