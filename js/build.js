@@ -28,9 +28,7 @@ new (fullpage_js_dist_fullpage_extensions__WEBPACK_IMPORTED_MODULE_0___default()
   autoScrolling: true,
   scrollHorizontally: true,
   sectionSelector: ".page-section",
-  scrollOverflow: true // menu: "#header__nav",
-  // anchors:['top', 'products', 'benefits', 'specification', 'questions', 'contacts']
-
+  scrollOverflow: true
 });
 $(".menu__btn").on("click", function () {
   $(".menu__btn").toggleClass("menu__btn--active");

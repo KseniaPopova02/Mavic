@@ -1,6 +1,6 @@
 @media (max-width: 1366px) {
   .header {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.6);
     padding: 25px 0;
     top: 0;
   }
@@ -28,16 +28,64 @@
   .benefits__item {
     margin-bottom: 80px;
   }
+  .specefication__box-2 {
+    margin-top: 115px;
+  }
+
+  .questions {
+    .title {
+      padding-top: 40px;
+      margin-bottom: 20px;
+    }
+  }
+  .questions__item-title {
+    line-height: 22px;
+    font-size: 15px;
+    padding: 16px 10px 16px 10px;
+  }
+  .questions__item-title::after {
+    height: 53px;
+    width: 60px;
+    right: -60px;
+  }
+
+  .questions__item-text {
+    padding: 0 5px 40px 30px;
+  }
 }
 @media (max-width: 1280px) {
   .benefits__item {
-    width: 45%;
+    height: 45%;
   }
 
   .benefits__item:first-child::before,
   .benefits__item:nth-child(3)::before,
   .benefits__item:nth-child(3)::after {
     display: none;
+  }
+
+  .specefication {
+    background-image: url("../images/page-bg.jpg");
+  }
+
+  .specefication__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .specefication__item {
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .specefication__box-title {
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+
+  .specefication__box-2 {
+    margin: 0;
   }
 }
 @media (max-width: 1100px) {
@@ -104,7 +152,7 @@
   }
 
   .menu__btn-line {
-    background-color: #e0e0e0;
+    background-color: #fff;
     display: block;
     width: 24px;
     height: 1px;
@@ -146,9 +194,6 @@
 
   .products__slider-box {
     padding-right: 20px;
-  }
-  .benefits__items {
-    display: block;
   }
 
   .benefits__item {
@@ -196,6 +241,14 @@
   .products__slider-box {
     padding-bottom: 80px;
   }
+  .contacts__inner {
+    flex-wrap: wrap;
+  }
+  .contacts__form {
+    width: 100%;
+    margin-right: 0;
+    order: 1;
+  }
 }
 
 @media (max-width: 787px) {
@@ -210,6 +263,10 @@
   }
   .benefits__info {
     width: 100%;
+  }
+
+  .questions__item {
+    padding-right: 60px;
   }
 }
 
@@ -276,11 +333,8 @@
   }
 }
 
-// @media (max-width: 375px) {
-//   header__phone
-
-// }
-
-// @media (max-width: 340px) {
-
-// }
+@media (max-width: 490px) {
+  .questions__item-text {
+    padding: 0 5px 20px 8px;
+  }
+}
