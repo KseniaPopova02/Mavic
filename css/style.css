@@ -640,14 +640,14 @@ body {
   top: 51px;
 }
 .benefits__item:nth-child(3)::before {
-  background-image: url("/images/line-3.svg");
+  background-image: url(/images/line-3.svg?0ac24571908c9bf191a63dfed943845f);
   width: 240px;
   height: 45px;
   right: -55px;
   top: 50px;
 }
 .benefits__item:nth-child(3)::after {
-  background-image: url("/images/line-2.svg");
+  background-image: url(/images/line-2.svg?348aadfbbe3551cd6a76bd72b6afd22f);
   width: 485px;
   height: 62px;
   top: -80px;
